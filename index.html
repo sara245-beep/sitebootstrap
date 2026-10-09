@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+
+
+    <title>SITE Bootstrap </title>
+</head>
+
+<body>
+
+    
+ <ul class="nav nav-underline">
+
+    
+    <a class="navbar-brand" href="#" md:navbar-expand bg-1 data-bs-theme="dark" >
+     <img src="img/LogoMarscek.png" alt="Bootstrap" width="260" height="160">
+
+    </a>
+
+
+  <li class="nav-item">
+     
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+
+        <div id="carouselExampleContent" class="carousel slide">
+            <div class="carousel-inner rounded-5">
+                <div class="carousel-item active">
+                    <div class="d-flex flex-column justify-content-center bg-subtle-primary p-9 bg-1 rounded-5"
+                        style="min-height: 320px;">
+                        <h3>Build anything</h3>
+                        <p class="fg-emphasis-secondary mb-3">Compose slides from your own markup—text, buttons, cards,
+                            or media.</p>
+                        <div><a class="btn-solid theme-primary" href="#">Get started</a></div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex flex-column justify-content-center text-center bg-subtle-success p-9 bg-2 rounded-5"
+                        style="min-height: 320px;">
+                        <h3>Style it your way</h3>
+                        <p class="fg-emphasis-secondary mb-3">Use utilities or custom CSS to size and theme each slide
+                            however you need.</p>
+                        <div><a class="btn-solid theme-success" href="#">Learn more</a></div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex flex-column justify-content-center text-end bg-subtle-warning p-9 bg-3 rounded-5"
+                        style="min-height: 320px;">
+                        <h3>Mix and match</h3>
+                        <p class="fg-emphasis-secondary mb-3">Combine custom content with controls, indicators, and the
+                            overlay layout.</p>
+                        <div><a class="btn-solid theme-inverse" href="#">Browse examples</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center gap-2">
+                <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselExampleContent"
+                    data-bs-slide="prev" style="--bs-carousel-control-icon-width: 1rem;">
+                    <span class="carousel-icon-prev" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselExampleContent"
+                    data-bs-slide="next" style="--bs-carousel-control-icon-width: 1rem;">
+                    <span class="carousel-icon-next" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>@social</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+
+
+
+        <section class="d-flex align-items-start>" style="max-width: 620px">
+
+            <section class="card" style="max-width: 320px">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
+                    <a href="#" class="btn-solid theme-primary">Go somewhere</a>
+    </div>
+    </section>
+
+    <section class="card" style="max-width: 320px">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card’s content.</p>
+            <a href="#" class="btn-solid theme-primary">Go somewhere</a>
+        </div>
+    </section>
+
+    
+    </section>
+
+<form class="row g-3">
+  <div class="md:col-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="md:col-6">
+    <label for="inputPassword4" class="form-label">Password</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="md:col-6">
+    <label for="inputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="md:col-4">
+    <label for="inputState" class="form-label">State</label>
+    <select id="inputState" class="form-control">
+      <option selected>Choose...</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="md:col-2">
+    <label for="inputZip" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+    <div class="form-field">
+      <input type="checkbox" id="gridCheck" class="check">
+      <label for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn-solid theme-primary">Sign in</button>
+  </div>
+</form>
+
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+        crossorigin="anonymous"></script>
+
+
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
